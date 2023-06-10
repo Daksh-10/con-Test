@@ -16,7 +16,7 @@ p.then(response => {
 }</p>
                 <p class="card-text">The contest ends at ${value[item].end_time
 }</p>
-                <a href="${value[item].site}" class="btn btn-primary">Visit here</a>
+                <a href="${value[item].url}" class="btn btn-primary">Visit here</a>
             </div>
         </div>`
     }
